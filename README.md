@@ -19,7 +19,7 @@ var countries = [
   }
 ]
 
-countries = objectify(countries)
+countries = objectify(countries, 'code')
 
 console.log(countries.us.name) // United States
 ```
