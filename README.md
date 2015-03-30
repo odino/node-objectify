@@ -19,7 +19,7 @@ var countries = [
   }
 ]
 
-countries = objectify(countries)
+countries = objectify(countries, 'code')
 
 console.log(countries.us.name) // United States
 ```
@@ -29,7 +29,7 @@ console.log(countries.us.name) // United States
 As usual:
 
 ```
-npm install --save node-objectiify
+npm install --save node-objectify
 ```
 
 ## Tests
