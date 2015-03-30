@@ -1,5 +1,7 @@
 # node-objectify
 
+[![Build Status](https://travis-ci.org/odino/node-objectify.svg?branch=master)](https://travis-ci.org/odino/node-objectify)
+
 Transform a list of objects into an object, useful
 when you want to make your code more eloquent.
 
